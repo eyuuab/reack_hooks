@@ -11,12 +11,12 @@ import MoviesList from "./Exercise/Movies";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <CounterApp /> */}
     {/* <StateChanger /> */}
     {/* <StateChangeLogger /> */}
     {/* <StateChangeLoggerCleanUp /> */}
     {/* <CallApi /> */}
-    <MoviesList />
+    {/* <MoviesList /> */}
   </React.StrictMode>
 );
