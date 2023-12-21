@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import CounterApp from "./UseState/CounterApp";
+import StateChangeLogger from "./UseEffect/UseEffectConsole";
+import StateChanger from "./UseState/UseStateConsole";
+import StateChangeLoggerCleanUp from "./UseEffect/UseEffectCleanUp";
+import CallApi from "./UseEffect/UseEffectApi";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <CounterApp /> */}
+    {/* <StateChanger /> */}
+    {/* <StateChangeLogger /> */}
+    {/* <StateChangeLoggerCleanUp /> */}
+    {/* <CallApi /> */}
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
