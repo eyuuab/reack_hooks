@@ -12,11 +12,17 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <CounterApp /> */}
+    {/* useState */}
     {/* <StateChanger /> */}
+    <CounterApp />
+
+    {/* useEffect */}
+
     {/* <StateChangeLogger /> */}
     {/* <StateChangeLoggerCleanUp /> */}
     {/* <CallApi /> */}
+
+    {/* Exercise */}
     {/* <MoviesList /> */}
   </React.StrictMode>
 );

@@ -21,8 +21,8 @@ const IncrementDecrementLogger = () => {
     <div>
       <h2>Increment Decrement Logger</h2>
       <p>Counter: {counter}</p>
-      <button onClick={incrementCounter}>Increment</button>
-      <button onClick={decrementCounter}>Decrement</button>
+      <button onClick={decrementCounter}>-</button>
+      <button onClick={incrementCounter}>+</button>
     </div>
   );
 };
