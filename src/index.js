@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import Test from "./UseState/Test";
 import CounterApp from "./UseState/CounterApp";
 import StateChangeLogger from "./UseEffect/UseEffectConsole";
 import StateChanger from "./UseState/UseStateConsole";
@@ -12,14 +13,17 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+
     {/* useState */}
+    <Test/>
     {/* <StateChanger /> */}
-    <CounterApp />
+    {/* <CounterApp /> */}
+
 
     {/* useEffect */}
 
     {/* <StateChangeLogger /> */}
-    {/* <StateChangeLoggerCleanUp /> */}
+    <StateChangeLoggerCleanUp />
     {/* <CallApi /> */}
 
     {/* Exercise */}
